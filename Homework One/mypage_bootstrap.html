@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About Me: Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+table, th, td
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+<body>
+  <div class=".text-left">
+     <h1>Rymkiewicz, Joshua <small class="text-muted"> - Computer Science and Business </small>   </h1>
+</div>
+
+  <div class="card">
+    <div class="card-header">I am a computer science major from denver, Colorado.Pursuing a computer science and business degree</div>
+  </div>
+  <h3>My Professional Page</h3>
+  <div class=".text-left">
+    <input type="button" value="Joshua's Github" onclick= window.location.href="https://github.com/joshrymkiewicz"
+  </div>
+  <p> </p>
+    <img src="pic2.jpg" class="rounded-circle" alt="Joshua Rymkiewicz" width="300" height="400">
+
+</div>
+
+<p> </p>
+<h3>My Favorite Projects</h3>
+<table style="width:40%">
+<tr>
+  <th>Name of Project</th>
+  <th>Technolgies Used</th>
+</tr>
+<tr>
+  <td>Teacher/Student Portal</td>
+  <td>Java C++ </td>
+</tr>
+<tr>
+  <td>Snake</td>
+  <td>Java</td>
+</tr>
+<tr>
+  <td>Children Technolgy Restriction App</td>
+  <td>Xcode C++ </td>
+</tr>
+</table>
+
+<p>
+  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Countries Visited</a>
+  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Interests</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        <ol type="I">
+          <li>Norway</li>
+          <li>Poland</li>
+          <li>Italy</li>
+          <li>Mexico</li>
+          <li>Canada</li>
+          <li>Cuba</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        <ol type="I">
+          <li>Coffee Shops</li>
+          <li>Fitness</li>
+          <li>Learning</li>
+          <li>Creating a Company</li>
+          <li>Golf</li>
+          <li>Reading</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Cick me
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Wise Words</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Trying to do things only the 1% of people will do
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
